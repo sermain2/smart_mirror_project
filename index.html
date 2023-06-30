@@ -1,0 +1,38 @@
+<html>
+
+<head>
+  <title>WEB</title>
+</head>
+
+<body>
+  <p> </p>
+
+  <table align="center" border="0" background="white">
+
+    <tr align="center">
+      <td colspan="6" width="150">
+        <h2> WEB_TEST</h2>
+      </td>
+    </tr>
+
+    <tr align="center">
+      <td colspan="2" width="150"><img src="./imges/Red.gif"></td>
+    </tr>
+
+    <tr align="center">
+      <td align="right"><input type="button" value="on" onClick="on_red()"></td>
+      <td align="left"><input type="button" value="off" onClick="off_red()"></td>
+    </tr>
+
+  </table>
+  <script>
+    function on_red() {
+      document.images[0].src = "./imges/onRed.gif";
+    }
+
+    function off_red() {
+      document.images[0].src = "./imges/offRed.gif";
+    }
+  </script>
+</body>
+<html>
